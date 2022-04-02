@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Task 8</title>
+        <style>
+            table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 10px;
+}
+.center{
+    margin: auto;
+    text-align: center;
+
+}
+        </style>
+    </head>
+    <body>
+        <table class="center">
+            <tr>
+                <th colspan="4">Iam table 1</th>
+            </tr>
+            
+            <tr>
+                <td>First</td>
+                <td>Second</td>
+                <td rowspan="2">
+                    <table class="center">
+                        <tr>
+                            <td colspan="2">Iam Table 2</td>
+                        
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>Pakistan</td>
+                        </tr>
+                    </table>
+                </td>
+                <td>Hello</td>
+            </tr>
+            <tr>
+                <td>Third</td>
+                <td>Fourth</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Fifth</td>
+                <td>Sixth</td>
+                <td>BLANK</td>
+                <td rowspan="2">Iam merged <br> cells</td>
+            </tr>
+            <tr>
+                <td>Seventh</td>
+                <td>Eight</td>
+                <td>BLANK</td>
+            </tr>
+        </table>
+    </body>
+</html>
